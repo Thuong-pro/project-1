@@ -1,0 +1,49 @@
+1, cài đặt laragon
+*b1: tải link laragon theo link (https://laragon.org/download/) khuyến khích cài phiên bản [Download Laragon 2025 v7.0.6 - Full (222 MB)]
+*b2: +vào php.net (https://www.php.net/) và chọn download 
+      +tiếp theo bấm vào mục [Windows downloads](https://windows.php.net/download#php-8.4) 
+      +ở mục VS17 x64 Thread Safe (2025-Feb-11 16:30:00) chọn zip tải về
+       +kéo xuống dưới ở phần Archives chọn archives. khi vào đây ta bấm ctrl+f để tìm phiên bản [php-7.4.33-Win32-vc15-x64.zip] rồi tải về
+*b3: vào link https://www.apachelounge.com/download/#google_vignette để tải 
+      + tải [vc_redist_x64] về
+       + tải Apache 2.4.63-250207 Win64 về
+2, sau khi tải về ta giải nén các file cần thiết rồi bắt đầu cài đặt laragon
+*b1: vào phần download để cài đặt laragon 
+*b2: sau khi cài đặt xong  ta bấm vào start all để chạy. cho phép apache và mysqld chạy
+*b3:+ vào ổ đĩa c nơi cài đặt laragon ( tất cả các nội dung ta đặt phần www ) 
+      + vào www tạo một thư mục mới mang tên php -projiect1
+ *b4: mở visual studio code để code thử
+      + vào file chọn open fordel để mở thư mục php-projiect1
+       +tạo file mới index.php
+        +viết lệnh đơn giản <?php
+
+                                           phpinfo();
++ để chạy được ta mở laragon chọn apache chọn tải lại 
++chuột phải  vào mục www sẽ xuất hiện dòng php-projiect1. clik vào sẽ hiện tên miền php-projiect1, tên miền này được tạo tự động thông qua thư mục mủa mình.
+*b5 : vào laravel  https://laravel.com/docs/12.x/releases
++chọn vesion 10
++vào phần Getting Started chọn [Installation]
++tạo ra một projiect mới ta chọn [Creating a Laravel Project) sẽ có mấy lệnh cài đặt
+*b6: vào laragon mở phần ternimal 
++mình gõ lệnh composer -v nó sẽ ra thông tin là  2.8.4 sau đó mình clear 
++sau đó chạy lệnh composer create-project "laravel/laravel:^10.0" laravel1
+*b7:tạo một database trong laragon
++mở laragon chọn database 
++chuột phải vào phần kết nối của minh (laragon.Mysql) chọn creat new chọn database
++mình tạo laravel1 chọn utf8mb4_general_ci
+*b8: quay vào visua studio code mở thư mục laravel1
++vào views chọn .env và sửa thành laravel1
++quay lại ternimal chạy lệnh cd laravel1
++tiếp đến chạy lệnh php artisan migrate
++ mở lại laragon và bấm tải lại
+*b9: vào phần www nó sẽ hiện laravel1 và chọn để mở laravel1
+*b10: thay đổi phiên bản php
++chuột phải vào php chọn version chọn phần mở thư mục (dir)
++coppy phiên bản đã tải rồi dán vào (nhớ giải nén file)
++chuột phải chọn php và chọn phiên bản mới vào và chọn f5 để khởi động lại phiên bản 
+****làm theo link và video hướng dẫn nếu các bạn khó hiểu 
+https://web2m.com/huong-dan-cai-dat-laragon/
+https://www.youtube.com/watch?v=jHpVj6SVsgE&list=PLv6GftO355AvDKh-48Jle5_nYXfO9UdyM
+và kết thúc tại đây ạ
+
+
