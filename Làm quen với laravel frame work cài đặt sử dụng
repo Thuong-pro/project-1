@@ -1,0 +1,130 @@
+1. Tổng quan kiến thức về Laravel
+Laravel thường được các lập trình viên dùng để tạo các ứng dụng web PHP (tùy chỉnh). Nó là một cấu trúc web xử lý được nhiều khía cạnh như các template HTML (và xác thực) và định tuyến khi thiết lập. Vì hoạt động ở máy chủ, Laravel thường tập trung vào việc xử lý các dữ liệu và duy trì thiết kế của bộ điều khiển (ở chế độ xem mô hình). Laravel hoàn toàn thuộc về phía máy chủ. 
+
+1.1. Laravel là gì?
+Laravel là gì? Đây là mã nguồn mở và được phát triển nhằm hỗ trợ các bạn lập trình viên phát triển đa dạng các phần mềm, ứng dụng web và trang web theo mô hình MVC. Nhờ có Laravel, việc xây dựng và phát triển ứng dụng dễ dàng và hiệu quả. Laravel lần đầu ra mắt công chúng vào năm 2011. Đến nay, PHP Laravel có đa dạng các tính năng:
+
+Cơ chế định tuyến đa cấp
+Tạo lập truy vấn dữ liệu nhanh gọn
+Cơ chế xử lý lỗi
+Tiếp cận đối tượng nhanh chóng 
+Có tính năng bảo mật cao
+Có thư viện mở rộng 
+Một số tính năng khác giúp phát triển và quản lý ứng dụng thuận tiện
+Xem thêm: [Bật Mí] – Website Là Gì | Tổng Hợp Kiến Thức Website 2023
+
+Tổng quan kiến thức về Laravel
+Tổng quan kiến thức về Laravel – Nguồn: Laravel là gì?
+1.2. Framework là gì?
+Framework Laravel là gì? Nó đơn giản là một thư viện với các tài nguyên sẵn có ở một số lĩnh vực để các bạn có thể sử dụng ngay (không phải mất thời gian tự thiết kế). Khi sở hữu framework, các bạn chỉ cần tìm hiểu và khai thác nguồn tài nguyên đó. 
+
+Trong quá trình làm việc, các bạn nên kết nối chúng lại cùng nhau để tạo thành sản phẩm hoàn thiện. Mỗi bạn lập trình viên đang làm việc ở một lĩnh vực nhất định nào đó, các bạn nên thiết lập các lớp riêng biệt về chương trình để tạo nên hệ thống các phần mềm và ứng dụng thành phẩm.
+
+1.3. PHP Framework là gì?
+PHP framework là thư viện để làm tiền đề phát triển các ứng dụng web được lập trình bằng ngôn ngữ PHP. Nhờ có framework, các ứng dụng web trở nên mượt mà hơn. Khi cung cấp một cấu trúc cơ bản để tạo ứng các ứng dụng đó, công việc của các bạn sau này sẽ tiết kiệm thời gian và công sức. PHP framework giúp các bạn đẩy mạnh quá trình phát triển ứng dụng và tăng tính ổn định cho nó. Đồng thời, PHP framework còn giảm số lần phải viết lại code. 
+
+1.4. Mô hình MVC là gì?
+Mô hình MVC (Model View Controller) là kiểu kiến trúc phần mềm trên máy tính để tạo lập giao diện cho người dùng. Hệ thống này thường chia thành 3 phần có khả năng tương tác cùng nhau và thậm chí tách biệt các nguyên tắc nghiệp vụ với giao diện người dùng. 
+
+Controller: có nhiệm vụ nhận điều hướng các yêu cầu từ người dùng và gọi chính xác các phương thức để xử lý
+Model: thành phần chứa đầy đủ các nghiệp vụ logic, phương thức xử lý, truy xuất dữ liệu, giám sát các đối tượng mô tả dữ liệu như class và hàm xử lý
+View: có trách nhiệm hiển thị thông tin để tương tác với người dùng. Đồng thời, nó cũng là nơi chứa tất cả đối tượng GUI (textbox, images,…)
+Thông tin nội hàm có thể được xử lý tách biệt với phần thông tin xuất hiện trong giao diện người dùng. Các nguyên tắc làm việc và đạo đức của người lập trình được giữ vững.
+
+2. Lịch sử hình thành và phát triển của Laravel
+Cha đẻ của Laravel là ông Taylor Otwell. Ông này đã cho ra mắt Laravel vào tháng 6 năm 2011 vì ông muốn nó là giải pháp thay thế CodeIgniter. Với framework này, các bạn lập trình có thể sử dụng các tính năng mới. Tính đến nay, Laravel đã có đến phiên bản 5.8 và nhiều cải tiến phong phú. 
+
+3. Ưu điểm và nhược điểm của Framework Laravel
+Dù Laravel được các lập trình viên thế giới yêu thích và ưa chuộng sử dụng, framework này cũng có các ưu thế và nhược điểm nhất định. Trước khi cài đặt sử dụng, các bạn cần tìm hiểu cả 2 để có nhận định khách quan hơn về Laravel. 
+
+Ưu điểm và nhược điểm của Framework Laravel
+Ưu điểm và nhược điểm của Framework Laravel – Nguồn: Laravel là gì?
+3.1. Ưu điểm 
+Luôn cập nhật các tính năng mới nhất của PHP: khi các bạn dùng phiên bản 5.0 trở lên, các bạn sẽ được tiếp cận toàn bộ các tính năng mới nhất của PHP. Ví dụ như Namespaces, Interfaces, Overloading, các chức năng ẩn danh và Shorter array syntax.
+Đa dạng nguồn tài nguyên và chúng luôn có sẵn: nguồn tài nguyên của Laravel gần như là vô hạn. Các bạn có thể dùng nhiều tài liệu khác nhau để tham khảo. Tất cả phiên bản được phát hành đều có nguồn tài liệu tương thích với ứng dụng của các bạn.
+Có khả năng tương thích với email: là framework được trang bị các API sạch trên thư viện SwiftMailer, Laravel cho phép các bạn gửi thư qua các dịch vụ (dựa trên các nền tảng đám mây hoặc local). 
+Tốc độ xử lý cực nhanh: Laravel có thể hỗ trợ việc tạo dựng website nhỏ hoặc ở các dự án lớn trong thời gian ngắn. Do đó, các công ty có quy mô vừa và nhỏ thường sử dụng Laravel để tiết kiệm chi phí nhưng vẫn đạt hiệu quả cao. 
+Dễ sử dụng: Laravel có hệ thống tính năng logic và có bản hướng dẫn sử dụng. Các lập trình viên mới vào nghề cũng có thể sử dụng tốt.
+Tính bảo mật cao: Laravel có các tính năng bảo mật mạnh mẽ để các bạn tập trung vào công việc phát triển ứng dụng hoặc sản phẩm. Ví dụ như dùng PDO để chống lại sự tấn công của SQL Injection, sử dụng trường token ẩn để chống lại kiểu tấn công CSRF, ẩn các biến được đưa ra view mặc định để tránh sự tấn công XSS. 
+3.2. Nhược điểm 
+Không hỗ trợ tính năng thanh toán: nếu bạn phải tự thanh toán các khoản quản lý, thì bạn sẽ phải tuân thủ các nguyên tắc PCI. Các bạn lập trình mới vào nghề sẽ thử các trang web thương mại trực tuyến và xây dựng ứng dụng trong kho template có sẵn. Thậm chí, các bạn có thể sử dụng các thư viện của framework để tích hợp các phương thức thanh toán. Tuy nhiên, đa phần các lập trình viên lão làng hoặc nhà giao dịch điện tử nhúng bộ xử lý thanh toán của bên thứ 3 để thuận tiện. 
+Các phiên bản không có tính kết nối: giữa các phiên bản Laravel thiếu sự chuyển đổi liền mạch. Nếu cập nhật code mới, các bạn vô tình phá vỡ ứng dụng. 
+Không thích hợp cho các bạn lập trình nghiệp dư (tay ngang): một số thành phần trong framework không có kiểu thiết kế tốt. Dependency injection đôi khi sử dụng rất phức tạp. Các bạn phải học và đọc nhiều tài liệu trước khi xây dựng ứng dụng. 
+Thiếu một số tính năng cho ứng dụng di động: khi phải tải toàn bộ trang sẽ gây quá tải trong các ứng dụng di động (khi chúng ta so sánh với các trang web). Trong các trường hợp tương tự, các lập trình viên có khuynh hướng chỉ sử dụng một số framework như backend JSON API. 
+4. Tổng hợp các tính năng nổi bật của Laravel
+Để hiểu rõ hơn Laravel là gì, các bạn nên tìm hiểu các tính năng của nó. PHP chính là server scripting language và khá thịnh hành trong các doanh nghiệp phát triển phần mềm. Các lập trình viên và các nhà phát triển mong muốn tạo trang web và các ứng dụng của web với nhiều tính năng mới mẻ. Tham vọng này khiến cho họ mất nhiều thời gian hơn để tạo và phát triển một sản phẩm phần mềm. Cấu trúc Laravel là chìa khóa giúp họ đơn giản hóa mọi thứ.
+
+Tổng hợp các tính năng nổi bật của Laravel
+Tổng hợp các tính năng nổi bật của Laravel – nguồn: Laravel là gì?
+4.1. Authorization và Program Logic Technique
+Authentication là phần quan trọng nhất của bất cứ web app nào. Các bạn lập trình cũng sẽ mất nhiều thời gian để phát triển authentication computer code. Hệ thống Laravel có nhiệm vụ sắp xếp authorization logic và kiểm soát quyền truy cập vào tài nguyên. Tính năng Laravel design mới nhất sẽ có validation computer code.
+
+Do đó, các bạn sẽ giảm thời gian thực hiện cho việc tạo mã. Application reasoning trong Laravel được triển khai trong tất cả phần mềm có controller (để tạo lộ trình đến khai báo bằng cách sử dụng cú pháp). Framework cung cấp các tính năng linh hoạt giúp các bạn xây dựng tất cả trên website. 
+
+4.2. Blade Templating Engine
+Blade templating engine là tính năng nổi bật nhất của Laravel. Hơn nữa, tất cả các bạn lập trình đều có thể sử dụng khi phải làm việc với ngôn ngữ PHP hoặc HTML điển hình. Blade templating engine cho phép người dùng soạn thảo mã PHP cơ bản trong layout shape. Các bạn sẽ giảm thiểu được một số thao tác để sử dụng nhanh gọn hơn.
+
+4.3. Laracasts
+Laracasts là công cụ học tập và là một trong các tính năng quan trọng của Laravel. Nó chính là sự kết hợp giữa các hướng dẫn bằng video miễn phí và trả phí giúp các bạn hiểu về sự vận hành của Laravel. Ông Jeffery trực tiếp tạo ra các video có liên quan đến Laracasts và ông là chuyên gia về Laravel.
+
+Ông đã hướng dẫn rõ ràng và chính xác cách sử dụng công cụ Laracasts thông qua các bài học ý nghĩa và có chất lượng cao. Các bạn lập trình viên non trẻ có thể tận dụng Laracasts để học cách sử dụng tất cả tính năng của web Laravel. 
+
+4.4. Hỗ trợ nhiều tập tin khác nhau
+Laravel có tính năng local support network nhằm giúp lưu trữ các dịch vụ tài liệu và các bạn có thể sử dụng hệ thống Fly. Tương tự như vậy, các lựa chọn cloud-based inventories được tạo sẽ gần hơn với các cloud-based platforms.
+
+4.5. Tính bảo mật
+Laravel đảm bảo an toàn cho các ứng dụng trên website. Vì nó thường sử dụng loại mật khẩu dạng băm (#) và nó không lưu mật khẩu ở dạng văn bản thuần túy. Sở dĩ nó sử dụng thuật toán băm Bcrypt để dòng mật khẩu tạo ra sẽ tự động mã hóa liên tục.
+
+ SQL statement được sử dụng từ Laravel sẽ khiến các injection attack không tiếp cận được. Laravel cũng có cung cấp phương pháp đơn giản hơn để thoát khỏi user input nhằm tránh injection từ thẻ script (<script>). 
+
+4.6. Artisan
+Artisan là công cụ thiết yếu tiếp theo của Laravel. Khi các bạn tương tác với framework bằng cách sử dụng một dòng lệnh (tạo và quản lý) Laravel trên một môi trường phát triển website. Đồng thời, Artisan còn là công cụ tích hợp giúp các bạn giải quyết các công việc có tính lặp đi lặp lại trên website mà không cảm thấy nhàm chán.
+
+#1 Hosting Giá Rẻ, VPS Giá Rẻ, Email, Cloud Server | VinaHost.VN
+Laravel tương thích với Artisan
+4.7. Migration System Databases
+Ở tính năng này, nó sẽ giúp các bạn gia tăng lượng cấu trúc dữ liệu của phần mềm khi các bạn muốn chỉnh sửa gì đó trên website. Các bạn không phải viết code mới nữa. Bằng cách sử dụng mã PHP thay vì ngôn ngữ truy vấn có cấu trúc (SQL), Laravel cung cấp các dịch vụ thay đổi cấu trúc tự động. 
+
+Nhờ đó, cơ sở dữ liệu có sự tương tác với nhau. Laravel Schema cho phép các bạn xây dựng các bảng cơ sở dữ liệu, chèn các cột hoặc các chỉ mục. Laravel Schema được ví như một phiên bản có quyền kiểm soát đối với cơ sở dữ liệu.
+
+5. Vì sao bạn nên sử dụng Laravel?
+Khi chọn Laravel, các bạn sẽ được:
+
+Tiếp cận đầy đủ các tính năng mới nhất được cung cấp từ Laravel. Nếu bạn dùng Namespaces, Interfaces, Overloading, Shorter Array Syntax và các chức năng ẩn danh; Laravel là lựa chọn khôn ngoan 
+Nguồn tài nguyên phong phú và kho tài liệu đa dạng. Ở mỗi phiên bản, các bạn có thể đọc và nghiên cứu cách sử dụng trước khi dùng. Các tài liệu tra cứu đều của Laravel nên các bạn không phải sợ nguồn không chính chủ
+Bổ sung dịch vụ mail (dựa trên nền tảng đám mây hoặc local nhờ API sạch trên thư viện SwiftMailer) 
+Tốc độ xử lý tính bằng giây nên các bạn có thể tạo lập và vận hành các trang web trong thời gian ngắn 
+Thao tác các tính năng trên Laravel dễ dàng với các mẫu thiết kế mô hình 3 lớp MVC
+Có các tính năng bảo mật tự động
+Hỗ trợ backend cache, tiêu biểu là Memcached và Redis out-of-the-box
+Có thể trở thành công cụ tích hợp cho dòng lệnh Artisan 
+Tạo được sự liên kết chặt chẽ đến các route (được đặt tên)
+Giảm tải chu kỳ phát triển sản phẩm vì Laravel tích hợp các tính năng nhanh gọn và có sự trợ giúp của Laracasts
+6. Hướng dẫn cài đặt và sử dụng Laravel chi tiết
+Cài đặt Lavarel rất đơn giản. Tuy nhiên, các bạn cần tuân thủ từng bước để việc sử dụng nhanh chóng và chính xác hơn. 
+
+6.1. Cấu hình hệ thống cài đặt Laravel
+Trước khi cài Laravel, máy tính của bạn cần phải đáp ứng một số cấu hình: 
+
+PHP >= 5.5.9
+PDO PHP Extension
+OpenSSL PHP Extension
+Tokenizer PHP Extension
+Mbstring PHP Extension
+Nếu bạn dùng hệ điều hành Windows, thì các bạn nên dùng phần mềm tạo Webserver như Wamp, Openserver, Ampps, Xampp,…
+6.2. Hướng dẫn cài đặt framework Laravel
+6.2.1. Cài đặt qua Installer 
+Installer đơn giản là thư viện của Laravel. Mục đích của nó là giúp chúng ta cài đặt Laravel thuận tiện hơn. Các bạn chỉ cần dùng một câu lệnh duy nhất là đã hoàn tất phần cài đặt Laravel vào máy. Để thực hiện, bạn mở Terminal (Git Bash hoặc CMD). Sau đó, bạn gõ lệnh: composer global require “laravel/installer”
+
+Tiếp theo, bạn nên bổ sung đường dẫn file thực thi của Composer vào Windows Environment Variables Path. Hệ điều hành Windows ở đường dẫn sẽ là “%appdata%\Composer\vendor\bin”. Nếu bạn dùng hệ điều hành Linux hoặc macOS, các bạn sẽ tìm đường dẫn ở “~/.composer/vendor/bin“.
+
+Sau khi đã cài đặt xong, bạn di chuyển đến mục htdocs trong XAMPP và mở cửa sổ lệnh (hệ điều hành Windows, bạn nhấn tổ hợp Shift và click chuột phải. Sau đó, bạn chọn Git Bash Here hoặc Command Window Here) và gõ lệnh laravel new blog. Blog là tên của thư mục Laravel project. 
+
+6.2.2. Cài đặt qua Composer
+Ngoài cài đặt Laravel qua Installer, các bạn cũng có thể dùng công cụ Composer. Di chuyển con trỏ đến thư mục htdocs trong XAMPP. Tiếp theo, bạn mở cửa sổ lệnh và gõ lệnh composer create-project –prefer-dist laravel/laravel blog. Blog đóng vai trò là thư mục Laravel project. Vậy là các bạn đã cài đặt Laravel bằng công cụ Composer. 
+
+Hướng dẫn cài đặt framework Laravel
+Hướng dẫn cài đặt framework Laravel – Nguồn: laravel là gì
+6.3. Hướng dẫn sử dụng framework Laravel
+Sau khi bạn đã cài đặt Laravel, bạn mở WebServer và đi đến thư mục Public (nó nằm trong thư mục Laravel Project hoặc từ thư mục Laravel Project) để nhập lệnh “php artisan serve”. Trên màn hình console sẽ xuất hiện thông báo “Laravel development server started on http://localhost:8000/”. Khi đó, bạn vào trình duyệt và gõ lệnh http://localhost:8000. Như vậy là bạn đã có thể sử dụng Laravel.
+
