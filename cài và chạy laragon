@@ -1,0 +1,40 @@
+1, cài đặt laragon
+*b1: tải link laragon theo link (https://laragon.org/download/) khuyến khích cài phiên bản [Download Laragon 2025 v7.0.6 - Full (222 MB)]
+*b2: +vào php.net (https://www.php.net/) và chọn download 
+      +tiếp theo bấm vào mục [Windows downloads](https://windows.php.net/download#php-8.4) 
+      +ở mục VS17 x64 Thread Safe (2025-Feb-11 16:30:00) chọn zip tải về
+       +kéo xuống dưới ở phần Archives chọn archives. khi vào đây ta bấm ctrl+f để tìm phiên bản [php-7.4.33-Win32-vc15-x64.zip] rồi tải về
+*b3: vào link https://www.apachelounge.com/download/#google_vignette để tải 
+      + tải [vc_redist_x64] về
+       + tải Apache 2.4.63-250207 Win64 về
+2, sau khi tải về ta giải nén các file cần thiết rồi bắt đầu cài đặt laragon
+*b1: vào phần download để cài đặt laragon 
+*b2: sau khi cài đặt xong  ta bấm vào start all để chạy. cho phép apache và mysqld chạy
+*b3:+ vào ổ đĩa c nơi cài đặt laragon ( tất cả các nội dung ta đặt phần www ) 
+      + vào www tạo một thư mục mới mang tên php -projiect1
+ *b4: mở visual studio code để code thử
+      + vào file chọn open fordel để mở thư mục php-projiect1
+       +tạo file mới index.php
+        +viết lệnh đơn giản <?php
+
+                                           phpinfo();
++ để chạy được ta mở laragon chọn apache chọn tải lại 
++chuột phải  vào mục www sẽ xuất hiện dòng php-projiect1. clik vào sẽ hiện tên miền php-projiect1, tên miền này được tạo tự động thông qua thư mục mủa mình.
+*b5 : vào laravel  https://laravel.com/docs/12.x/releases
++chọn vesion 10
++vào phần Getting Started chọn [Installation]
++tạo ra một projiect mới ta chọn [Creating a Laravel Project) sẽ có mấy lệnh cài đặt
+*b6: vào laragon mở phần ternimal 
++mình gõ lệnh composer -v nó sẽ ra thông tin là  2.8.4 sau đó mình clear 
++sau đó chạy lệnh composer create-project "laravel/laravel:^10.0" laravel1
++chương trình không chạy được và hiện lỗi -> Creating a "laravel/laravel:^10.0" project at "./laravel1"
+Installing laravel/laravel (v10.3.3)
+  - Downloading laravel/laravel (v10.3.3)
+  - Installing laravel/laravel (v10.3.3): Extracting archive
+    Install of laravel/laravel failed
+In ZipDownloader.php line 193:
+Failed to extract laravel/laravel: (2) C:\Users\ADMIN\laragon\bin\laragon\utils\7z.EXE x -bb0 -y C:\Users\ADMIN\laragon\www\laravel1\vendor\composer\tmp-
+  db264c8771a0aa231aa83b7b64386d9c.zip -oC:\Users\ADMIN\laragon\www\laravel1\vendor\composer\4282724f
+
+  ERROR: C:\Users\ADMIN\laragon\www\laravel1\vendor\composer\tmp-db264c8771a0aa231aa83b7b64386d9c.zip
+  Cannot open the file as archive
