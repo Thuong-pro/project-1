@@ -1,0 +1,32 @@
+1, cài đặt laragon
+*b1: tải link laragon theo link (https://laragon.org/download/) khuyến khích cài phiên bản [Download Laragon 2025 v7.0.6 - Full (222 MB)]
+*b2: - sau khi tải về ta vào phần download để cài đặt laragon 
+- sau khi cài đặt xong  ta bấm vào start all để chạy. cho phép apache và mysqld chạy
+- vào trình duyệt wed gõ "localhost" xem laragon chạy chưa(nếu hiện thông tin của Laragon thì đã cài xong)
+- vào ổ đĩa c nơi cài đặt laragon ( tất cả các nội dung ta đặt trong thư mục www ) 
+      + vào www tạo một thư mục mới mang tên Project01
+ *b3: mở visual studio code để code thử
++ vào file chọn open fordel để mở thư mục Project01
++ tạo file mới index.php
++ viết lệnh đơn giản <?php
+                             echo "Hello Word";     
+                                    ?>       
++ chạy xem thử
+2, cài đặt php Storm
+*b1: truy cập đường link (https://www.jetbrains.com/toolbox-app/) để tải bộ công cụ Jetbrains 
+- tải xong chúng cài đặt(chọn mặc định) và mở bộ công cụ ra chọn install php Storm
+*b2:sau khi insall php Storm thì mở ra cài đặt và đăng nhập theo email của nhà trường
+- ấn open chọn đường dẫn tới laragon/www, tạo thư mục mới tên Project02 vào tạo tệp tin php mới tên index.php
+- viết lệnh đơn giản <?php
+                             echo "Hello Word";     
+                                    ?>  
+- chạy kiểm thử
+3, cài đặt composer + laravel
+*b1: truy cập đường link (https://getcomposer.org/download/) để tải composer
+- tải xong chúng ta cài đặt |(chọn mặc định), lưu ý đường dẫn php trên máy khi dùng laragon
+*b2: cài xong vào laragon mở phần ternimal mình gõ lệnh composer -v để kiểm tra (nếu hiện phiên bản là đã cài xong)
+- sau đó truy cập đường dẫn (https://laravel.com/docs/12.x/installation)
++ chọn phiên bản phù hợp laragon
++ sau đó tìm và copy dòng lệnh "composer global require laravel/installer" vào terminal của laragon chạy để cài laravel
++ chờ cài đặt thư viện xong quay lại trang wed laravel tìm và copy dòng lệnh "laravel new example-app" (examp-app tên dự án) để tạo dự án
++ vào wed gõ localhost8000 để kiểm tra laravel
