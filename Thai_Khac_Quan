@@ -9,7 +9,7 @@
 + vào file chọn open fordel để mở thư mục Project01
 + tạo file mới index.php
 + viết lệnh đơn giản <?php
-                             echo "Hello Word";     
+                             echo "Hello World";     
                                     ?>       
 + chạy xem thử
 2, cài đặt php Storm
@@ -18,7 +18,7 @@
 *b2:sau khi insall php Storm thì mở ra cài đặt và đăng nhập theo email của nhà trường
 - ấn open chọn đường dẫn tới laragon/www, tạo thư mục mới tên Project02 vào tạo tệp tin php mới tên index.php
 - viết lệnh đơn giản <?php
-                             echo "Hello Word";     
+                             echo "Hello World";     
                                     ?>  
 - chạy kiểm thử
 3, cài đặt composer + laravel
